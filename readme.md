@@ -45,16 +45,16 @@ There are also unstable/nightly builds:
 Dependencies
 ------------
 
-- SDL
-- OpenGL
-- OpenAL
-- Lua / LuaJIT / LLVM-lua
-- DevIL with MNG and TIFF
-- FreeType
-- PhysicsFS
-- ModPlug
-- mpg123
-- Vorbisfile
+- SDL	- 各平台事件支持
+- OpenGL- 渲染支持
+- OpenAL- 音频支持
+- Lua / LuaJIT / LLVM-lua 	- Lua 支持
+- DevIL with MNG and TIFF	- 图片读取, [cimg][cimg] ?
+- FreeType					- 字体支持
+- PhysicsFS					- 虚拟文件系统支持(zip,..)
+- ModPlug					- 音乐
+- mpg123					- 音乐
+- Vorbisfile				- 音乐
 
 [site]: http://love2d.org
 [wiki]: http://love2d.org/wiki
@@ -65,3 +65,5 @@ Dependencies
 [stableppa]: https://launchpad.net/~bartbes/+archive/love-stable
 [unstableppa]: https://launchpad.net/~bartbes/+archive/love-unstable
 [aur]: http://aur.archlinux.org/packages.php?ID=35279
+[cimg]: http://cimg.sourceforge.net
+
